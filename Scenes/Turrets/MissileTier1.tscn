@@ -10,13 +10,12 @@
 texture = ExtResource( 1 )
 
 [node name="Turret" type="Sprite" parent="."]
-rotation = 1.57079
 texture = ExtResource( 3 )
 
 [node name="Missile1" type="Sprite" parent="Turret"]
 texture = ExtResource( 2 )
-offset = Vector2( -10, -5 )
+offset = Vector2( 5, 10 )
 
 [node name="Missile2" type="Sprite" parent="Turret"]
 texture = ExtResource( 2 )
-offset = Vector2( 10, -5 )
+offset = Vector2( 5, -10 )

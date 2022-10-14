@@ -155,10 +155,6 @@ tile_data = PoolIntArray( 65539, 1, 0, 65545, 2, 0, 65555, 2, 0, 131079, 0, 6553
 
 [node name="Turrets" type="Node2D" parent="."]
 
-[node name="GunTier1" parent="Turrets" instance=ExtResource( 6 )]
-position = Vector2( 216, 604 )
-script = ExtResource( 9 )
-
 [node name="GunTier2" parent="Turrets" instance=ExtResource( 7 )]
 position = Vector2( 416, 408 )
 script = ExtResource( 10 )
@@ -166,3 +162,7 @@ script = ExtResource( 10 )
 [node name="MissileTier1" parent="Turrets" instance=ExtResource( 8 )]
 position = Vector2( 417, 296 )
 script = ExtResource( 11 )
+
+[node name="GunTier1" parent="Turrets" instance=ExtResource( 6 )]
+position = Vector2( 233, 616 )
+script = ExtResource( 9 )
